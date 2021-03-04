@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Christopher Aguilera Madrid">
+	<meta name="description" content="Te invito a conocerme atravez de esta pagina">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Paginas, Christopher, Aguilera, yo">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portafolio</title>
+    <!-- style text -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrao 4.5.2 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--Mi script-->
+    <script src="assets/js/script.js"></script>
+    <!--Mi css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<!--barra de navegacion del proyecto-->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mainnavbar">
+      <div class="container">
+        <a class="navbar-brand text-dark" href="index.html">M</a><!--modificar a-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  <!--Links de navegacion-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-dark" href="#sobre-mi">Sobre mi<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#trabajos">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    
+    <!-- foto section -->
+    <div class="container">
+        <div class="row">
+            <div class="btn col align-self-center">
+            <button type="button" data-toggle="modal" data-target="#info"><!--Abrir la carta-->
+                <img src="assets/img/foto.png" alt="foto" id="foto">
+            </button>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal datos section-->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">informacion</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <!-- texto 1 section -->
+        <div>
+            <p>Nombre</p>
+            <p>Fecha de nacimiento</p>
+            <p>Nacionalidad</p>
+            <p>Estado civil</p>
+            <p>Región</p>
+            <p>Comuna</p>
+            <p>e-mail</p>
+        </div>
+        <!-- texto 2 section -->
+        <div>
+            <p>Christopher Jesús Aguilera Madrid</p>
+            <p>25 de febrero 1997</p>
+            <p>Chilena</p>
+            <p>Soltero</p>
+            <p>Santiago</p>
+            <p>El bosque</p>
+            <p>christopher.aguilera.mad@gmail.com</p>
+        </div>
+        </div>
+      </div>
+    </div>
+</div>
+    
+<div id="sobre-mi">
+    <button id="informacion">mostrar</button>
+    <div id="info">
+        <div class="container">
+            <div class="row">
+        <!-- info section -->
+        <div class="col-4">
+<p>Técnico nivel medio telecomunicaciones y desarrollador full stack JavaScript, dispuesto a participar en proyectos o cargos sobre aplicaciones y/o web, colaborando de manera efectiva para el cumplimiento de metas de equipo de trabajo, además brindad calidad y entusiasmo en los trabajos, y comunicación efectiva con las personas externas e internas. También desempeñar en conjunto a un equipo de trabajo mi labor como profesional, seguir desarrollando mis habilidades para entregar proyectos excelentes y con gran vocación. Asertividad en la toma de decisiones, comportamiento anticipatorio con orientación a las mejoras y tolerancia a una mayor carga laboral en cuanto a cumplir responsablemente en el menor tiempo labores designadas.</p>
+        </div>
+        <!-- certificado section -->
+        <div class="col-4">
+            <img src="assets/img/media.png" alt="certificado1" id="certificado1">
+            <img src="assets/img/javascript.png" alt="certificado2" id="certificado2">
+        </div>
+            <!-- conocimientos section -->
+        <div class="col-4">
+            <ul>
+                <li>Conocimientos de instalaciones eléctricas</li>
+                <li>redes de cableado</li>
+                <li>informática intermedia</li>
+                <li>soporte técnico en computación y tecnología</li>
+                <li>uso de AutoCAD</li>
+                <li>(CSS, HTML, JavaScript, SQL, node, manejo API, GITHUB) JavaScript Full Stack</li>
+            </ul>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+    <!-- experiencias section -->
+    <div id="experiencia">
+        <div class="container">
+            <div class="row">
+        <!-- experiencias section -->
+        <div class="col-6">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <p>Soporte técnico en la empresa Crawford como practicante Técnico de Telecomunicaciones por 3 meses en el 2015.</p>
+        <p>Principales Funciones:</p>
+        <ul>
+            <li>Mantención y funcionamientos de los equipos computacionales en hardware y software.</li>
+            <li>Mantención redes, telefonía e impresoras.</li>
+            <li>Responder y dar solución a los problemas presencial y no presencial.</li>
+            <li>Dar asistencia a los técnicos telefonía, informática y redes.</li>
+        </ul>      
+    </div>
+      <div class="carousel-item">
+        <p>Promotor en Falabella Mall Arauco Maipú por 1 mes en el 2017 para época de navidad.</p>
+        <p>Principales Funciones:</p>
+        <ul>
+            <li>Entregar muestras perfume.</li>
+            <li>Asesorar compraras para los clientes.</li>
+            <li>Mantener estante y productos ordenados.</li>
+        </ul>      
+    </div>
+    <div class="carousel-item">
+        <p>Soporte Técnico en la empresa PcFactory como Técnico en la sucursal Las Condes desde el 1 de febrero del 2018 hasta 13 de abril del 2020.</p>
+        <p>Principales Funciones:</p>
+        <ul>
+            <li>Diagnostico o arreglar producto con fallas.</li>
+            <li>Revisión estado productos.</li>
+            <li>Recepción y envió productos para reparación a la marca.</li>
+            <li>Atención al cliente en explicar y ayudar con el producto.</li>
+        </ul>      
+    </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+        </div>
+        <!-- experiencias cargo section -->
+        <div class="col-6">
+
+        </div>
+    </div>
+</div>
+    </div>
+    
+    <!-- trabajos section -->
+    <div id="trabajos">
+        
+    </div>
+
+    <!-- ??? section -->
+    <div>
+
+    </div>
+
+    <!-- contacto section -->
+    <div id="contacto">
+        <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="github.com"><a href="https://github.com"  target="_blank"><i class="fab fa-github-square fa-3x text-dark"></i></a></button>
+        <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="linkedin.com"><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x text-dark"></i></a></button>
+        <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="twitter.com"><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x text-dark"></i></a></button>
+        <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="facebook.com"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x text-dark"></i></a></button>
+    </div>
+</body>
+</html>
