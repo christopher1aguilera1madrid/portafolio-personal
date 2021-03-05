@@ -1,4 +1,4 @@
-#info {
+#datos {
 	display: none;
 }
 
@@ -13,4 +13,16 @@
 
 .carousel-inner {
 	height: 300px;
+}
+
+body {
+	background-color: aquamarine;
+}
+
+#modalcertificado1 {
+	width: 100%;
+}
+
+#modalcertificado2 {
+	width: 100%;
 }
